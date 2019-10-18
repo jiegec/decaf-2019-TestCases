@@ -1,6 +1,7 @@
 *.log
 *.DS_Store
 */output/
+*/out/
 *.tac
 *.s
 *.class
