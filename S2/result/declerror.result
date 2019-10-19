@@ -1,0 +1,8 @@
+*** Error at (5,13): declaration of 'a' here conflicts with earlier declaration at (4,20)
+*** Error at (10,14): cannot declare identifier 'c' as void type
+*** Error at (11,9): array element type must be non-void known type
+*** Error at (13,10): declaration of 'a' here conflicts with earlier declaration at (2,9)
+*** Error at (26,13): declaration of 'a' here conflicts with earlier declaration at (25,20)
+*** Error at (32,16): declaration of 'b' here conflicts with earlier declaration at (20,9)
+*** Error at (36,10): declaration of 'func' here conflicts with earlier declaration at (22,17)
+*** Error at (39,9): declaration of 'func1' here conflicts with earlier declaration at (25,10)
