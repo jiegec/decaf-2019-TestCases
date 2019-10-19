@@ -1,0 +1,42 @@
+class Main {
+
+    static void main() {
+        class Hoo h = new Goo();
+        int i;
+
+        i = 5;
+        h.printNumbers(i);
+        Print(instanceof(h, Goo));
+        class Goo g = (class Goo)h;
+        g.printNumbers(i);
+        h = new Hoo();
+        h.printNumbers(i);
+    }
+}
+
+class Hoo {
+    int printNumbers(int n) {
+        int i = 1;
+
+        if (10 < n) {
+            n = 10;
+        }
+
+        while (i < n) {
+            Print(i);
+            i = i * 2;
+        }
+
+        Print("\n");
+
+        return i;
+    }
+}
+
+class Goo extends Hoo {
+    int printNumbers(int n) {
+        Print(n);
+
+        return 1;
+    }
+}
