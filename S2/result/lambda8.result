@@ -1,0 +1,17 @@
+GLOBAL SCOPE:
+    (3,1) -> class Main
+    CLASS SCOPE OF 'Main':
+        (4,17) -> STATIC function main : () => void
+        FORMAL SCOPE OF 'main':
+            <empty>
+            LOCAL SCOPE:
+                (5,13) -> variable intarr_map : int => int => int[] => int[]
+                (12,13) -> variable print_filter : int => bool => int[] => void
+                (18,13) -> variable print_arr : int[] => void
+                (24,13) -> variable dotintint : int => int => int => int => int => int
+                (26,13) -> variable plus1 : int => int
+                (27,13) -> variable times3 : int => int
+                (29,13) -> variable arr : int[]
+                (30,13) -> variable arr2 : int[]
+                (33,13) -> variable pred : int => bool
+                (34,13) -> variable pf : int[] => void
