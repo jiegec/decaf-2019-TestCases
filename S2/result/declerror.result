@@ -1,8 +1,11 @@
 *** Error at (5,13): declaration of 'a' here conflicts with earlier declaration at (4,20)
+*** Error at (8,21): declaration of 'b' here conflicts with earlier declaration at (6,13)
 *** Error at (10,14): cannot declare identifier 'c' as void type
 *** Error at (11,9): array element type must be non-void known type
 *** Error at (13,10): declaration of 'a' here conflicts with earlier declaration at (2,9)
-*** Error at (26,13): declaration of 'a' here conflicts with earlier declaration at (25,20)
-*** Error at (32,16): declaration of 'b' here conflicts with earlier declaration at (20,9)
-*** Error at (36,10): declaration of 'func' here conflicts with earlier declaration at (22,17)
-*** Error at (39,9): declaration of 'func1' here conflicts with earlier declaration at (25,10)
+*** Error at (18,10): declaration of 'print' here conflicts with earlier declaration at (15,10)
+*** Error at (32,13): declaration of 'a' here conflicts with earlier declaration at (31,20)
+*** Error at (41,16): declaration of 'b' here conflicts with earlier declaration at (26,9)
+*** Error at (45,10): declaration of 'func' here conflicts with earlier declaration at (28,17)
+*** Error at (48,34): declaration of 'b' here conflicts with earlier declaration at (48,27)
+*** Error at (51,9): declaration of 'func1' here conflicts with earlier declaration at (31,10)
