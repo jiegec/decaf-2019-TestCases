@@ -1,0 +1,16 @@
+GLOBAL SCOPE:
+    (1,1) -> class A
+    (2,1) -> class B : A
+    (4,1) -> class Main
+    CLASS SCOPE OF 'A':
+        <empty>
+    CLASS SCOPE OF 'B':
+        <empty>
+    CLASS SCOPE OF 'Main':
+        (5,17) -> STATIC function main : () => void
+        FORMAL SCOPE OF 'main':
+            <empty>
+            LOCAL SCOPE:
+                (6,13) -> variable abs : int => int
+                (12,13) -> variable print : int => void
+                (16,13) -> variable test : (class A, class B) => (class A, class B) => class A
