@@ -1,0 +1,13 @@
+GLOBAL SCOPE:
+    (1,10) -> ABSTRACT class Foo
+    (4,1) -> class Main
+    CLASS SCOPE OF 'Foo':
+        (2,19) -> ABSTRACT function bar : () => void
+        FORMAL SCOPE OF 'bar':
+            (2,19) -> variable @this : class Foo
+    CLASS SCOPE OF 'Main':
+        (5,17) -> STATIC function main : () => void
+        FORMAL SCOPE OF 'main':
+            <empty>
+            LOCAL SCOPE:
+                <empty>

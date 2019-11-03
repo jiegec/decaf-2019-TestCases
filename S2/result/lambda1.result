@@ -1,0 +1,13 @@
+GLOBAL SCOPE:
+    (4,1) -> class Main
+    CLASS SCOPE OF 'Main':
+        (5,17) -> STATIC function main : () => void
+        FORMAL SCOPE OF 'main':
+            <empty>
+            LOCAL SCOPE:
+                (6,13) -> variable f : int => void
+                LOCAL SCOPE:
+                    (6,25) -> variable x : int
+                    (7,17) -> variable g : int => int
+                    LOCAL SCOPE:
+                        (7,29) -> variable y : int

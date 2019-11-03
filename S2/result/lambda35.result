@@ -14,3 +14,23 @@ GLOBAL SCOPE:
                 (6,13) -> variable abs : int => int
                 (12,13) -> variable print : int => void
                 (16,13) -> variable test : (class A, class B) => (class B, class B) => class A
+                LOCAL SCOPE:
+                    (6,28) -> variable x : int
+                    <empty>
+                    LOCAL SCOPE:
+                        <empty>
+                    LOCAL SCOPE:
+                        <empty>
+                LOCAL SCOPE:
+                    (12,30) -> variable x : int
+                    <empty>
+                    LOCAL SCOPE:
+                        <empty>
+                LOCAL SCOPE:
+                    (16,33) -> variable a : class A
+                    (16,44) -> variable b : class B
+                    <empty>
+                    LOCAL SCOPE:
+                        <empty>
+                    LOCAL SCOPE:
+                        <empty>
