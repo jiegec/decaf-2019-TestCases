@@ -13,4 +13,4 @@ GLOBAL SCOPE:
             LOCAL SCOPE:
                 (6,13) -> variable abs : int => int
                 (12,13) -> variable print : int => void
-                (16,13) -> variable test : (class A, class B) => (class A, class B) => class A
+                (16,13) -> variable test : (class A, class B) => (class B, class B) => class A
