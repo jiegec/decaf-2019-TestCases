@@ -1,10 +1,7 @@
-// something
-
-
 class Main {
     static void main() {
-        var f = fun(int x) {
-            var g = fun(int y) => x + y;
+        var f = fun() {
+            var g = fun(int x) => x;
         };
     }
 }
