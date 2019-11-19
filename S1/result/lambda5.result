@@ -1,0 +1,138 @@
+TopLevel @ (3,1)
+    List
+        ClassDef @ (3,1)
+            AnotherWrapper
+            <none>
+            List
+                VarDef @ (4,12)
+                    TString @ (4,5)
+                    msg
+                    <none>
+                MethodDef @ (5,10)
+                    setMsg
+                    TVoid @ (5,5)
+                    List
+                        LocalVarDef @ (5,24)
+                            TString @ (5,17)
+                            m
+                            <none>
+                    Block @ (5,27)
+                        List
+                            Assign @ (6,13)
+                                VarSel @ (6,9)
+                                    <none>
+                                    msg
+                                VarSel @ (6,15)
+                                    <none>
+                                    m
+                MethodDef @ (8,12)
+                    run
+                    TLambda @ (8,5)
+                        TVoid @ (8,5)
+                        List
+                            <empty>
+                    List
+                        <empty>
+                    Block @ (8,18)
+                        List
+                            Return @ (9,9)
+                                Lambda @ (9,16)
+                                    List
+                                        <empty>
+                                    Block @ (9,22)
+                                        List
+                                            Print @ (9,23)
+                                                List
+                                                    VarSel @ (9,29)
+                                                        <none>
+                                                        msg
+        ClassDef @ (13,1)
+            Wrapper
+            <none>
+            List
+                MethodDef @ (14,26)
+                    getAnotherWrapper
+                    TClass @ (14,5)
+                        AnotherWrapper
+                    List
+                        LocalVarDef @ (14,51)
+                            TString @ (14,44)
+                            msg
+                            <none>
+                    Block @ (14,56)
+                        List
+                            LocalVarDef @ (15,13)
+                                <none>
+                                t
+                                NewClass @ (15,17)
+                                    AnotherWrapper
+                            ExprEval @ (16,17)
+                                Call @ (16,17)
+                                    VarSel @ (16,11)
+                                        VarSel @ (16,9)
+                                            <none>
+                                            t
+                                        setMsg
+                                    List
+                                        VarSel @ (16,18)
+                                            <none>
+                                            msg
+                            Return @ (17,9)
+                                VarSel @ (17,16)
+                                    <none>
+                                    t
+        ClassDef @ (21,1)
+            Main
+            <none>
+            List
+                MethodDef @ (22,17)
+                    STATIC
+                    main
+                    TVoid @ (22,12)
+                    List
+                        <empty>
+                    Block @ (22,24)
+                        List
+                            ExprEval @ (23,55)
+                                Call @ (23,55)
+                                    Call @ (23,52)
+                                        VarSel @ (23,49)
+                                            Call @ (23,41)
+                                                VarSel @ (23,24)
+                                                    NewClass @ (23,10)
+                                                        Wrapper
+                                                    getAnotherWrapper
+                                                List
+                                                    StringLit @ (23,42)
+                                                        "yes"
+                                            run
+                                        List
+                                            <empty>
+                                    List
+                                        <empty>
+                            Print @ (24,9)
+                                List
+                                    Call @ (24,41)
+                                        Lambda @ (24,17)
+                                            List
+                                                LocalVarDef @ (24,26)
+                                                    TInt @ (24,22)
+                                                    x
+                                                    <none>
+                                                LocalVarDef @ (24,33)
+                                                    TInt @ (24,29)
+                                                    y
+                                                    <none>
+                                            Binary @ (24,38)
+                                                ADD
+                                                VarSel @ (24,37)
+                                                    <none>
+                                                    x
+                                                VarSel @ (24,39)
+                                                    <none>
+                                                    y
+                                        List
+                                            IntLit @ (24,42)
+                                                4
+                                            IntLit @ (24,45)
+                                                5

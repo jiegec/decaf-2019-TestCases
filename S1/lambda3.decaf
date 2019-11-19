@@ -1,0 +1,16 @@
+// lambda variable rebinding
+
+class Main {
+    static int sadd(int x) { return x + 1; }
+    int madd(int x) { return x + 100; }
+
+    static void main() {
+        int(int) f;
+        var ladd1 = fun (int x) => x+2;
+        var ladd2 = fun (int x) => x+3;
+        f = ladd1; Print(f(1234));
+        f = ladd2; Print(f(1234));
+        f = sadd; Print(f(1234));
+        f = madd; Print(f(1234)); // bad
+    }
+}

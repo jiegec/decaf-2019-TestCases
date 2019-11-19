@@ -1,0 +1,7 @@
+// bad currying
+
+class Main {
+    static void main() {
+        (int(int))(int) addc = fun (int x) => fun (int y) => x+y;
+    }
+}

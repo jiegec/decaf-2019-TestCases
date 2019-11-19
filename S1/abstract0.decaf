@@ -1,0 +1,5 @@
+class Main {
+    abstract class Main v(); // pass PA1
+    static void main() {
+    }
+}

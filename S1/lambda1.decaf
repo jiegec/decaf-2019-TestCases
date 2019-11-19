@@ -13,5 +13,18 @@ class Main {
         void(int, int) a1 = fun (int x, int y) { Print(f(x + y)); };
         a1(f1(120));
         a1(13);
+
+        var g = fun (){Print("void lambda");};
+        g();
+        g("bad");           // good grammar. bad type.
+        Print(g());         // good grammar. bad type.
+
+        void() h = fun (){};
+        Print("before h");
+        h();
+        Print("after h");
+
+        void(void) ax = fun () { Print("ax"); };     // bad type
+        var bx = fun (void x) { Print("ax"); };      // bad type
     }
 }

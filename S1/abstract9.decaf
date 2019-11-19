@@ -1,0 +1,24 @@
+class Concrete {
+    int v;
+    static void s() { }
+    int a() { return 1; }
+    int m() { return 0; }
+}
+
+abstract class Abstract extends Concrete {
+    int v;
+    static void s() { }
+    abstract int a();
+    int m() { return 0; }
+}
+
+class Main {
+    static void main() {
+        class Concrete a = new Concrete();
+        if (instanceof(a, Abstract)) {
+            Print("right");
+        } else {
+            Print("wrong");
+        }
+    }
+}

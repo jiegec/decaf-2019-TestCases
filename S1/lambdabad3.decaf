@@ -1,0 +1,8 @@
+class Main {
+    static void main() {
+        var a = fun () {
+            Print("a");
+        }                   // missing semicolon
+        var b = 2;
+    }
+}

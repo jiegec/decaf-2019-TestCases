@@ -1,0 +1,16 @@
+// bonus
+
+class Main {
+    static void main() {
+        string(int) english = fun (int y) {
+            if (y == 0) return "zero";
+            if (y == 1) return "one";
+            if (y == 2) return "two";
+            if (y == 3) return "three";
+            return "oh! too hard! ling qing gao ming!";
+        };
+        Print("Hawaii Guitar!\n");
+        for (var i = 0; i < 5; i = i + 1)
+            Print(english(i));
+    }
+}

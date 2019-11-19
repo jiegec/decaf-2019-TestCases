@@ -1,0 +1,26 @@
+// calling lambda literals
+
+class AnotherWrapper {
+    string msg;
+    void setMsg(string m) {
+        msg = m;
+    }
+    void() run() {
+        return fun (){Print(msg);};
+    }
+}
+
+class Wrapper {
+    class AnotherWrapper getAnotherWrapper(string msg) {
+        var t = new AnotherWrapper();
+        t.setMsg(msg);
+        return t;
+    }
+}
+
+class Main {
+    static void main() {
+        (new Wrapper().getAnotherWrapper("yes").run())();
+        Print( (fun (int x, int y)=>x+y)(4, 5) );
+    }
+}

@@ -1,0 +1,55 @@
+TopLevel @ (1,10)
+    List
+        ClassDef @ (1,10)
+            ABSTRACT
+            Abstract
+            <none>
+            List
+                VarDef @ (2,9)
+                    TInt @ (2,5)
+                    v
+                    <none>
+                MethodDef @ (3,17)
+                    STATIC
+                    s
+                    TVoid @ (3,12)
+                    List
+                        <empty>
+                    Block @ (3,21)
+                        List
+                            <empty>
+                MethodDef @ (4,18)
+                    ABSTRACT
+                    a
+                    TInt @ (4,14)
+                    List
+                        <empty>
+                    <none>
+                MethodDef @ (5,9)
+                    m
+                    TInt @ (5,5)
+                    List
+                        <empty>
+                    Block @ (5,13)
+                        List
+                            Return @ (5,15)
+                                IntLit @ (5,22)
+                                    0
+        ClassDef @ (8,1)
+            Main
+            <none>
+            List
+                MethodDef @ (9,17)
+                    STATIC
+                    main
+                    TVoid @ (9,12)
+                    List
+                        <empty>
+                    Block @ (9,24)
+                        List
+                            LocalVarDef @ (10,24)
+                                TClass @ (10,9)
+                                    Abstract
+                                a
+                                NewClass @ (10,28)
+                                    Abstract

@@ -154,3 +154,95 @@ TopLevel @ (3,1)
                                     List
                                         IntLit @ (15,12)
                                             13
+                            LocalVarDef @ (17,13)
+                                <none>
+                                g
+                                Lambda @ (17,17)
+                                    List
+                                        <empty>
+                                    Block @ (17,23)
+                                        List
+                                            Print @ (17,24)
+                                                List
+                                                    StringLit @ (17,30)
+                                                        "void lambda"
+                            ExprEval @ (18,10)
+                                Call @ (18,10)
+                                    VarSel @ (18,9)
+                                        <none>
+                                        g
+                                    List
+                                        <empty>
+                            ExprEval @ (19,10)
+                                Call @ (19,10)
+                                    VarSel @ (19,9)
+                                        <none>
+                                        g
+                                    List
+                                        StringLit @ (19,11)
+                                            "bad"
+                            Print @ (20,9)
+                                List
+                                    Call @ (20,16)
+                                        VarSel @ (20,15)
+                                            <none>
+                                            g
+                                        List
+                                            <empty>
+                            LocalVarDef @ (22,16)
+                                TLambda @ (22,9)
+                                    TVoid @ (22,9)
+                                    List
+                                        <empty>
+                                h
+                                Lambda @ (22,20)
+                                    List
+                                        <empty>
+                                    Block @ (22,26)
+                                        List
+                                            <empty>
+                            Print @ (23,9)
+                                List
+                                    StringLit @ (23,15)
+                                        "before h"
+                            ExprEval @ (24,10)
+                                Call @ (24,10)
+                                    VarSel @ (24,9)
+                                        <none>
+                                        h
+                                    List
+                                        <empty>
+                            Print @ (25,9)
+                                List
+                                    StringLit @ (25,15)
+                                        "after h"
+                            LocalVarDef @ (27,20)
+                                TLambda @ (27,9)
+                                    TVoid @ (27,9)
+                                    List
+                                        TVoid @ (27,14)
+                                ax
+                                Lambda @ (27,25)
+                                    List
+                                        <empty>
+                                    Block @ (27,32)
+                                        List
+                                            Print @ (27,34)
+                                                List
+                                                    StringLit @ (27,40)
+                                                        "ax"
+                            LocalVarDef @ (28,13)
+                                <none>
+                                bx
+                                Lambda @ (28,18)
+                                    List
+                                        LocalVarDef @ (28,28)
+                                            TVoid @ (28,23)
+                                            x
+                                            <none>
+                                    Block @ (28,31)
+                                        List
+                                            Print @ (28,33)
+                                                List
+                                                    StringLit @ (28,39)
+                                                        "ax"

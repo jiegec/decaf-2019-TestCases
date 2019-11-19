@@ -1,0 +1,127 @@
+TopLevel @ (3,1)
+    List
+        ClassDef @ (3,1)
+            Main
+            <none>
+            List
+                MethodDef @ (4,17)
+                    STATIC
+                    main
+                    TVoid @ (4,12)
+                    List
+                        <empty>
+                    Block @ (4,24)
+                        List
+                            LocalVarDef @ (5,21)
+                                TLambda @ (5,9)
+                                    TString @ (5,9)
+                                    List
+                                        TInt @ (5,16)
+                                english
+                                Lambda @ (5,31)
+                                    List
+                                        LocalVarDef @ (5,40)
+                                            TInt @ (5,36)
+                                            y
+                                            <none>
+                                    Block @ (5,43)
+                                        List
+                                            If @ (6,13)
+                                                Binary @ (6,19)
+                                                    EQ
+                                                    VarSel @ (6,17)
+                                                        <none>
+                                                        y
+                                                    IntLit @ (6,22)
+                                                        0
+                                                Block @ (6,25)
+                                                    List
+                                                        Return @ (6,25)
+                                                            StringLit @ (6,32)
+                                                                "zero"
+                                                <none>
+                                            If @ (7,13)
+                                                Binary @ (7,19)
+                                                    EQ
+                                                    VarSel @ (7,17)
+                                                        <none>
+                                                        y
+                                                    IntLit @ (7,22)
+                                                        1
+                                                Block @ (7,25)
+                                                    List
+                                                        Return @ (7,25)
+                                                            StringLit @ (7,32)
+                                                                "one"
+                                                <none>
+                                            If @ (8,13)
+                                                Binary @ (8,19)
+                                                    EQ
+                                                    VarSel @ (8,17)
+                                                        <none>
+                                                        y
+                                                    IntLit @ (8,22)
+                                                        2
+                                                Block @ (8,25)
+                                                    List
+                                                        Return @ (8,25)
+                                                            StringLit @ (8,32)
+                                                                "two"
+                                                <none>
+                                            If @ (9,13)
+                                                Binary @ (9,19)
+                                                    EQ
+                                                    VarSel @ (9,17)
+                                                        <none>
+                                                        y
+                                                    IntLit @ (9,22)
+                                                        3
+                                                Block @ (9,25)
+                                                    List
+                                                        Return @ (9,25)
+                                                            StringLit @ (9,32)
+                                                                "three"
+                                                <none>
+                                            Return @ (10,13)
+                                                StringLit @ (10,20)
+                                                    "oh! too hard! ling qing gao ming!"
+                            Print @ (12,9)
+                                List
+                                    StringLit @ (12,15)
+                                        "Hawaii Guitar!\n"
+                            For @ (13,9)
+                                LocalVarDef @ (13,18)
+                                    <none>
+                                    i
+                                    IntLit @ (13,22)
+                                        0
+                                Binary @ (13,27)
+                                    LT
+                                    VarSel @ (13,25)
+                                        <none>
+                                        i
+                                    IntLit @ (13,29)
+                                        5
+                                Assign @ (13,34)
+                                    VarSel @ (13,32)
+                                        <none>
+                                        i
+                                    Binary @ (13,38)
+                                        ADD
+                                        VarSel @ (13,36)
+                                            <none>
+                                            i
+                                        IntLit @ (13,40)
+                                            1
+                                Block @ (14,13)
+                                    List
+                                        Print @ (14,13)
+                                            List
+                                                Call @ (14,26)
+                                                    VarSel @ (14,19)
+                                                        <none>
+                                                        english
+                                                    List
+                                                        VarSel @ (14,27)
+                                                            <none>
+                                                            i
